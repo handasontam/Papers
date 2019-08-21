@@ -1,7 +1,8 @@
 # Must-read papers on GNN
 GNN: graph neural network
 
-Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
+Contributed by Handason, Li Yiming, Xie Siyue.
+Acknowledgement: https://github.com/thunlp/GNNPapers
 
 ## [Content](#content)
 
@@ -10,14 +11,14 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 <tr><td colspan="2"><a href="#models">2. Models</a></td></tr>
 <tr>
     <td>&emsp;<a href="#autoencoder">2.1 Autoencoder</a></td>
-    <td>&ensp;<a href="#gans">2.2 GANs</a></td>
+    <td>&ensp;<a href="#gan">2.2 GAN</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#graph-kernels">2.3 Graph Kernels</a></td>
+    <td>&emsp;<a href="#kernel">2.3 Graph Kernels</a></td>
     <td>&ensp;<a href="#heterogeneous">2.4 Heterogeneous</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#matrix-factorization">2.5 Matrix Factorization</a></td>
+    <td>&emsp;<a href="#factorization">2.5 Matrix Factorization</a></td>
     <td>&ensp;<a href="#others">2.6 OTHERS</a></td>
 </tr>
 <tr>
@@ -70,11 +71,11 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 </tr>
 <tr>
     <td>&emsp;<a href="#path-classification">3.13 Path Classification</a></td>
-    <td>&ensp;<a href="#physics">3.14 Physics<a></td>
+    <td>&ensp;<a href="#Physics">3.14 Physics<a></td>
 </tr>
 <tr>
     <td>&emsp;<a href="#program-representation">3.15 Program Representation</a></td>
-    <td>&ensp;<a href="#recommender-systems">3.16 Recommender Systems</a></td>
+    <td>&ensp;<a href="#recommendation-systems">3.16 Recommendation Systems</a></td>
 </tr> 
 <tr>
     <td>&emsp;<a href="#reinforcement-learning">3.17 Reinforcement Learning</a></td>
@@ -82,11 +83,8 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 </tr>
 <tr>
     <td>&emsp;<a href="#traffic-network">3.19 Traffic Network</a></td>
-    <td>&ensp;<a href="#visualization">3.20 Visualization</a></td>
+    <td>&ensp;<a href="#generation">3.20 Generation</a></td>
     <!-- <td>&ensp;<a href="#social-network">3.16 Social Network</a></td> -->
-</tr>
-<tr>
-    <td>&emsp;<a href="#generation">3.21 Generation</a></td>
 </tr>
 </table>
 
@@ -129,76 +127,7 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 
 
 ## [Models](#content)   
-
-### [Autoencoder](#content)
-1. **A Degeneracy Framework for Scalable Graph Autoencoders.** IJCAI 2019. [paper](https://arxiv.org/pdf/1902.08813.pdf)
-
-    *Guillaume Salha, Romain Hennequin, Viet Anh Tran, Michalis Vazirgiannis.*
-
-1. **Learning Deep Representations for Graph Clustering.** AAAI 2014. [paper](https://dl.acm.org/citation.cfm?id=2894074)
-
-    *Fei Tian, Bin Gao, Qing Cui, Enhong Chen, T. M. Liu.*
-
-1. **Structural Deep Network Embedding.** KDD2018. [paper](http://dl.acm.org/citation.cfm?doid=2939672.2939753) [code](https://github.com/suanrong/SDNE)
-
-    *Wang, Daixin and Cui, Peng and Zhu, Wenwu.*
-
-### [GANs](#content)
-
-1. **Semi-supervised Learning on Graphs with Generative Adversarial Nets** CIKM 2018. [paper](http://arxiv.org/abs/1809.00130)
-
-    *Ming Ding, Jie Tang, Jie Zhang*
-
-### [Graph Kernels](#content)
-
-1. **Learning Convolutional Neural Networks for Graphs.** ICML 2016. [paper](http://proceedings.mlr.press/v48/niepert16.pdf)
-
-    *Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov.* 
-
-1. **Temporal-Relational Classifiers for Prediction in Evolving Domains.** [paper](http://ieeexplore.ieee.org/document/4781149/)
-
-    *Umang Sharan, Jennifer Neville.*
-
-### [Heterogeneous](#content)
-
-1. **Edge Attention-based Multi-Relational Graph Convolutional Networks.** [paper](http://arxiv.org/abs/1802.04944)
-
-    *Chao Shang, Qinqing Liu, Ko-Shin Chen, Jiangwen Sun, Jin Lu, Jinfeng Yi, Jinbo Bi.*
-
-1. **Graph Convolutional Networks on User Mobility Heterogeneous Graphs for Social Relationship Inference** IJCAI2019. [paper](https://www.ijcai.org/proceedings/2019/541)
-
-    *Yongji Wu, Defu Lian, Shuowei Jin, Enhong Chen*
-
-1. **Heterogeneous Network Embedding via Deep Architectures** KDD2015. [paper](http://dl.acm.org/citation.cfm?doid=2783258.2783296)
-
-    *Shiyu Chang, Wei Han, Jiliang Tang,. Guo-Jun Qi, Charu C. Aggarwal, Thomas S. Huang*
-
-1. **metapath2vec: Scalable Representation Learning for Heterogeneous Networks** KDD2017. [paper](http://dl.acm.org/citation.cfm?doid=3097983.3098036)
-
-    *Dong, Y., Chawla, N. V., & Swami, A.*
-
-1. **Modeling polypharmacy side effects with graph convolutional networks.** ISMB 2018. [paper](https://arxiv.org/abs/1802.00543)
-
-    *Marinka Zitnik, Monica Agrawal, Jure Leskovec.*
-
-1. **Modeling Relational Data with Graph Convolutional Networks.** ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
-
-    *Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.*
-
-1. **Multi-task Network Embedding.** IEEE-DSAA 2017. [paper](https://ieeexplore.ieee.org/document/8259819)
-
-    *Linchuan Xu, Xiaokai Wei, Jiannong Cao, Philip S. Yu*
-
-
-### [Matrix Factorization](#content)
-1. **Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec.** WSDM2018. [paper](http://dl.acm.org/citation.cfm?doid=3159652.3159706)
-
-    *Jiezhong Qiu, Yuxiao Dong, Hao Ma, Jian Li, Kuansan Wang, Jie Tang.*
-
-1. **Temporally Factorized Network Modeling for Evolutionary Network Analysis** WSDM2017. [paper](http://doi.acm.org/10.1145/3018661.3018669)
-
-    *Wenchao Yu, Charu C. Aggarwal, Wei Wang*
-
+    
 ### [Basic Models](#content)
 1. **Graphical-Based Learning Environments for Pattern Recognition.** SSPR/SPR 2004. [paper](https://link.springer.com/content/pdf/10.1007%2F978-3-540-27868-9_4.pdf)
 
@@ -540,7 +469,35 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
     *Guillaume Salha, Romain Hennequin, Viet Anh Tran, Michalis Vazirgiannis.*
 
 ## [Applications](#content)
+### [Cascade](#content)
+1. **Temporal Modeling of Information Diffusion Using Multi-actor Self-exciting Processes.** WWW 2018. [paper](https://dl.acm.org/citation.cfm?id=3191634)
 
+    *Bowen Zhang, Wing Cheong Lau.*  
+
+1. **SEISMIC: A Self-Exciting Point Process Model for Predicting Tweet Popularity.** SIGKDD 2015. [paper](https://arxiv.org/abs/1506.02594)
+
+    *Zhao, Qingyuan, Erdogdu Murat A, He Hera Y, Rajaraman Anand, Leskovec Jure*  
+
+1. **DeepCas: An End-to-end Predictor of Information Cascades.** WWW 2017. [paper](https://arxiv.org/abs/1506.02594)
+
+    *Cheng Li, Jiaqi Ma, Xiaoxiao Guo, Qiaozhu Mei*  
+    
+1. **Modeling Information Propagation with Survival Theory.** ICML 2013. [paper](https://arxiv.org/abs/1305.3616)
+
+    *Manuel Gomez Rodriguez, Jure Leskovec, Bernhard Schoelkopf * 
+
+1. **DeepHawkes: Bridging the Gap between Prediction and Understanding of Information Cascades.** CIKM 2017. [paper](https://dl.acm.org/citation.cfm?id=3132973)
+
+    *Qi Cao, Huawei Shen, Keting Cen, Wentao Quyang, Xueqi Cheng"
+
+1. **Tracing Fake-News Footprints: Characterizing Social Media Messages by How They Propagate.** WSDM 2018. [paper](https://dl.acm.org/citation.cfm?id=3159677)
+
+    *Liang Wu, Huan Liu*
+
+1. **Topological Recurrent Neural Network for Diffusion Prediction.** ICDM 2017. [paper](https://arxiv.org/abs/1711.10162)
+
+    *Jia Wang, Vincent W. Zheng, Zemin Liu, Kevin Chen-Chuan Chang*
+ 
 ### [Physics](#content)
 
 1. **Discovering objects and their relations from entangled scene representations.** ICLR Workshop 2017. [paper](https://arxiv.org/pdf/1702.05068.pdf)
@@ -634,6 +591,22 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 
     *John Bradshaw, Matt J. Kusner, Brooks Paige, Marwin H. S. Segler, José Miguel Hernández-Lobato.*
 
+1. **Recovering time-varying networks of dependencies in social and biological studies.** PNAS 2009. [paper](https://www.pnas.org/content/106/29/11878)
+
+    *Amr Ahme, Eric P. Xing.*
+    
+1. **Pairwise alignment of protein interaction networks.**  [paper](https://www.ncbi.nlm.nih.gov/pubmed/16597234)
+
+    *Koyutürk M1, Kim Y, Topkara U, Subramaniam S, Szpankowski W, Grama A.*
+
+1. **Neural Message Passing for Quantum Chemistry.** ICML 2017. [paper](https://arxiv.org/abs/1704.01212)
+
+    *Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl.*
+
+1. **Pre-training Graph Neural Networks.**  [paper](https://arxiv.org/abs/1905.12265)
+
+    *Weihua Hu, Bowen Liu, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, Jure Leskovec.*
+
 ### [Knowledge Graph](#content)
 1. **Modeling Relational Data with Graph Convolutional Networks.** ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
 
@@ -680,7 +653,7 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
     *Kun Xu, Mo Yu, Yansong Feng, Yan Song, Zhiguo Wang, Dong Yu.*
 
 
-### [Recommender Systems](#content)
+### [Recommendation Systems](#content)
 
 1. **Graph Convolutional Neural Networks for Web-Scale Recommender Systems.** KDD 2018. [paper](https://arxiv.org/abs/1806.01973)
 
@@ -739,6 +712,18 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
     *Wenqi Fan, Yao Ma, Qing Li, Yuan He, Eric Zhao, Jiliang Tang, Dawei Yin.*
 
 ### [Computer Vision](#content)
+1. **Structured Sequence Modeling with Graph Convolutional Recurrent Networks** 2017. [paper](https://arxiv.org/abs/1612.07659)
+
+    *Youngjoo Seo, Michaël Defferrard, Pierre Vandergheynst, Xavier Bresson*
+    
+1. **Learning Convolutional Neural Networks for Graphs.** ICML 2016. [paper](http://proceedings.mlr.press/v48/niepert16.pdf)
+
+    *Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov.* 
+    
+1. **Spectral Networks and Locally Connected Networks on Graphs.** ICLR 2014. [paper](https://arxiv.org/pdf/1312.6203.pdf)
+
+    *Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun.*
+    
 1. **Graph Neural Networks for Object Localization.** ECAI 2006. [paper](http://ebooks.iospress.nl/volumearticle/2775)
 
     *Gabriele Monfardini, Vincenzo Di Massa, Franco Scarselli, Marco Gori.*
@@ -959,7 +944,14 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 </details>
 
 ### [Natural Language Processing](#content)
+1. **Structured Sequence Modeling with Graph Convolutional Recurrent Networks** 2017. [paper](https://arxiv.org/abs/1612.07659)
 
+    *Youngjoo Seo, Michaël Defferrard, Pierre Vandergheynst, Xavier Bresson*
+    
+1. **Graph2Seq: Graph to Sequence Learning with Attention-based Neural Networks.** 2018. [paper](http://arxiv.org/abs/1804.00823)
+
+    *Xu, Kun; Wu, Lingfei; Wang, Zhiguo; Feng, Yansong; Witbrock, Michael; Sheinin, Vadim.*
+    
 1. **Conversation Modeling on Reddit using a Graph-Structured LSTM.** TACL 2018. [paper](https://arxiv.org/pdf/1704.02080)
 
     *Vicky Zayats, Mari Ostendorf.* 
@@ -1219,6 +1211,26 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 1. **DAG-GNN: DAG Structure Learning with Graph Neural Networks.** ICML 2019. [paper](https://arxiv.org/pdf/1904.10098)
 
     *Yue Yu, Jie Chen, Tian Gao, Mo Yu.*
+    
+1. **Scalable Large Near-Clique Detection in Large-Scale Networks via Sampling.** KDD 2015. [paper](https://dl.acm.org/citation.cfm?id=2783385)
+
+    *Michael Mitzenmacher, 	Jakub Pachocki, Richard Peng, 	Charalampos Tsourakakis, Shen Chen Xu*
+    
+1. **Gated Graph Sequence Neural Networks.** ICLR 2016. [paper](https://dl.acm.org/citation.cfm?id=2783385)
+
+    *Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel*
+
+1. **Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon.** [paper](https://arxiv.org/abs/1811.06128)
+
+    *Yoshua Bengio, Andrea Lodi, Antoine Prouvost*
+
+1. **Learning Combinatorial Optimization Algorithms over Graphs.** NIPS 2017 [paper](https://arxiv.org/abs/1704.01665)
+
+    *Hanjun Dai, Elias B. Khalil, Yuyu Zhang, Bistra Dilkina, Le Song*
+
+1. **Learning Combinatorial Optimization Algorithms over Graphs.** NIPS 2017 [paper](https://arxiv.org/abs/1704.01665)
+
+    *Hanjun Dai, Elias B. Khalil, Yuyu Zhang, Bistra Dilkina, Le Song*
 
 ### [Adversarial Attack](#content)
 1. **Adversarial Attacks on Neural Networks for Graph Data.** KDD 2018. [paper](http://delivery.acm.org/10.1145/3230000/3220078/p2847-zugner.pdf?ip=101.5.139.169&id=3220078&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E587F3204F5B62A59%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1545706391_e7484be677293ffb5f18b39ce84a0df9)
@@ -1266,6 +1278,50 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 1. **Attributed Graph Clustering via Adaptive Graph Convolution.** IJCAI 2019. [paper](https://arxiv.org/pdf/1906.01210.pdf)
 
     *Xiaotong Zhang, Han Liu, Qimai Li, Xiao-Ming Wu.*
+  
+1. **Learning Deep Representations for Graph Clustering.** AAAI 2014. [paper](https://dl.acm.org/citation.cfm?id=2894074)
+
+    *Fei Tian, 	Bin Gao, Qing Cui, 	Enhong Chen, Tie-Yan Liu.*
+    
+1. **metapath2vec: Scalable Representation Learning for Heterogeneous Networks.** KDD 2017. [paper](https://dl.acm.org/citation.cfm?id=3098036)
+
+    *Yuxiao Dong, Nitesh V. Chawla, Ananthram Swami.*    
+
+1. **Graph Clustering with Dynamic Embedding.** KDD 2017. [paper](https://arxiv.org/abs/1712.08249)
+
+    *Carl Yang, Mengxiong Liu, Zongyi Wang, Liyuan Liu, Jiawei Han.*    
+
+1. **Unsupervised Deep Embedding for Clustering Analysis.** ICML 2016. [paper](https://arxiv.org/abs/1511.06335)
+
+    *Junyuan Xie, Ross Girshick, Ali Farhadi.*    
+
+1. **Improved Deep Embedded Clustering with Local Structure Preservation.** IJCAI 2017. [paper](https://www.ijcai.org/proceedings/2017/243)
+
+    *Xifeng Guo, Long Gao, Xinwang Liu, Jianping Yin.*    
+
+1. **Learning Structural Node Embeddings Via Diffusion Wavelets.** SIGKDD 2018. [paper](https://arxiv.org/abs/1710.10321)
+
+    *Claire Donnat, Marinka Zitnik, David Hallac, Jure Leskovec.*   
+    
+1. **Heterogeneous Network Embedding via Deep Architectures.** KDD 2015. [paper](https://dl.acm.org/citation.cfm?id=2783296)
+
+    *Shiyu Chang, Wei Han, Jiliang Tang, Guo-Jun Qi, Charu C. Aggarwal, 	Thomas S. Huang.*    
+    
+1. **Higher-order Spectral Clustering for Heterogeneous Graphs.** [paper](https://arxiv.org/abs/1810.02959)
+
+    *Aldo G. Carranza, Ryan A. Rossi, Anup Rao, Eunyee Koh.*   
+
+1. **Community Detection and Link Prediction via Cluster-driven Low-rank Matrix Completion.** IJCAI 2019. [paper](https://www.ijcai.org/proceedings/2019/469)
+
+    *Junming Shao, Zhong Zhang, Zhongjing Yu, Jun Wang, Yi Zhao, Qinli Yang.*    
+
+1. **Scaling Fine-grained Modularity Clustering for Massive Graphs.** IJCAI 2019. [paper](https://arxiv.org/abs/1905.11275)
+
+    *Hiroaki Shiokawa, Toshiyuki Amagasa, Hiroyuki Kitagawa.* 
+
+1. **EdMot: An Edge Enhancement Approach for Motif-aware Community Detection.** KDD 2019. [paper](https://arxiv.org/abs/1906.04560)
+
+    *Pei-Zhen Li, Ling Huang, Chang-Dong Wang, Jian-Huang Lai.* 
     
 ### [Graph Classification](#content)
 1. **Contextual Graph Markov Model: A Deep and Generative Approach to Graph Processing.** ICML 2018. [paper](https://arxiv.org/pdf/1805.10636.pdf)
@@ -1284,6 +1340,30 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 
     *Yunsheng Bai, Hao Ding, Yang Qiao, Agustin Marinovic, Ken Gu, Ting Chen, Yizhou Sun, Wei Wang.*
 
+1. **Diffusion-Convolutional Neural Networks.** NIPS 2016. [paper](https://arxiv.org/pdf/1511.02136.pdf)
+
+    *James Atwood, Don Towsley.*
+   
+1. **Learning Convolutional Neural Networks for Graphs.** ICML 2016. [paper](http://proceedings.mlr.press/v48/niepert16.pdf)
+
+    *Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov.* 
+    
+1. **How Powerful are Graph Neural Networks?** ICLR 2019. [paper](https://openreview.net/pdf?id=ryGs6iA5Km)
+
+    *Keyulu Xu, Weihua Hu, Jure Leskovec, Stefanie Jegelka.*
+
+1. **Edge Attention-based Multi-Relational Graph Convolutional Networks.** ICLR 2019. [paper](https://arxiv.org/abs/1802.04944)
+
+    *Chao Shang, Qinqing Liu, Ko-Shin Chen, Jiangwen Sun, Jin Lu, Jinfeng Yi, Jinbo Bi.*
+
+1. **Predict then Propagate: Graph Neural Networks meet Personalized PageRank.** ICLR 2019. [paper](https://arxiv.org/abs/1810.05997)
+
+    *Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann.*
+
+1. **Pre-training Graph Neural Networks.**  [paper](https://arxiv.org/abs/1905.12265)
+
+    *Weihua Hu, Bowen Liu, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, Jure Leskovec.*
+    
 ### [Reinforcement Learning](#content)
 
 1. **NerveNet: Learning Structured Policy with Graph Neural Networks.** ICLR 2018. [paper](https://openreview.net/pdf?id=S1sqHMZCb)
@@ -1446,9 +1526,174 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 1. **Structured Sequence Modeling with Graph Convolutional Recurrent Networks** 2017. [paper](https://arxiv.org/abs/1612.07659)
 
     *Youngjoo Seo, Michaël Defferrard, Pierre Vandergheynst, Xavier Bresson*
+    
+### [Link Prediction](#content)
 
+1. **node2vec: Scalable Feature Learning for Networks.** SIGKDD 2016. [paper](https://arxiv.org/abs/1607.00653)
 
+    *Aditya Grover, Jure Leskovec*
 
+1. **Structural Deep Network Embedding.** KDD2018. [paper](http://dl.acm.org/citation.cfm?doid=2939672.2939753) [code](https://github.com/suanrong/SDNE)
+
+    *Wang, Daixin and Cui, Peng and Zhu, Wenwu.*
+
+1. **Inductive Representation Learning on Large Graphs.** NIPS 2017. [paper](https://arxiv.org/pdf/1706.02216.pdf)
+
+    *William L. Hamilton, Rex Ying, Jure Leskovec.*
+
+1. **Representation Learning over Dynamic Graphs.** ICLR 2019. [paper](https://arxiv.org/abs/1803.04051)
+
+    *Rakshit Trivedi, Mehrdad Farajtabar, Prasenjeet Biswal, Hongyuan Zha.*
+
+1. **Link Prediction with Spatial and Temporal Consistency in Dynamic Networks.** ICLR 2017. [paper](https://www.ijcai.org/proceedings/2017/467)
+
+    *Wenchao Yu, Wei Cheng, Charu C Aggarwal, Haifeng Chen, Wei Wang.*
+
+1. **Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs.** ICML 2017. [paper](http://arxiv.org/abs/1705.05742) [code](https://github.com/rstriv/Know-Evolve)
+
+    *Trivedi, Rakshit; Dai, Hanjun; Wang, Yichen; Song, Le.*
+
+1. **Deep Inductive Network Representation Learning.** WWW 2018. [paper](https://dl.acm.org/citation.cfm?id=3184558.3191524)
+
+    *Ryan A. Rossi, Rong Zhou, 	Nesreen K. Ahmed.*
+
+1. **Streaming Graph Neural Networks.** 2018. [paper](https://arxiv.org/abs/1810.10627)
+
+    *Yao Ma, Ziyi Guo, Zhaochun Ren, Eric Zhao, Jiliang Tang, Dawei Yin.*
+    
+1. **Modeling polypharmacy side effects with graph convolutional networks.** ISMB 2018. [paper](https://arxiv.org/abs/1802.00543)
+
+    *Marinka Zitnik, Monica Agrawal, Jure Leskovec.*
+
+1. **Deep Inductive Graph Representation Learning.** [paper](https://ieeexplore.ieee.org/document/8519335)
+
+    *Ryan Anthony Rossi, Rong Zhou, Nesreen Ahmed.*
+
+1. **Multi-task Network Embedding.** DSAA 2017 [paper](https://ieeexplore.ieee.org/abstract/document/8259819)
+
+    *RLinchuan Xu, Xiaokai Wei, Jiannong Cao, Philip S. Yu.*
+    
+1. **Modeling Relational Data with Graph Convolutional Networks.** ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
+
+    *Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.*
+    
+1. **EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs.** [paper](https://arxiv.org/abs/1902.10191)
+
+    *Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Charles E. Leisersen.*
+    
+1. **Community Detection and Link Prediction via Cluster-driven Low-rank Matrix Completion.** IJCAI 2019. [paper](https://www.ijcai.org/proceedings/2019/469)
+
+    *Junming Shao, Zhong Zhang, Zhongjing Yu, Jun Wang, Yi Zhao, Qinli Yang.*    
+
+### [Node Classification](#content)
+
+1. **Diffusion-Convolutional Neural Networks.** NIPS 2016. [paper](https://arxiv.org/pdf/1511.02136.pdf)
+
+    *James Atwood, Don Towsley.*
+
+1. **node2vec: Scalable Feature Learning for Networks.** SIGKDD 2016. [paper](https://arxiv.org/abs/1607.00653)
+
+    *Aditya Grover, Jure Leskovec*
+    
+1. **LINE: Large-scale Information Network Embedding.** WWW 2015. [paper](https://arxiv.org/abs/1503.03578)
+
+    *Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Qiaozhu Mei.*
+
+1. **Structural Deep Network Embedding.** KDD2018. [paper](http://dl.acm.org/citation.cfm?doid=2939672.2939753) [code](https://github.com/suanrong/SDNE)
+
+    *Wang, Daixin and Cui, Peng and Zhu, Wenwu.*
+
+ 1. **Semi-Supervised Classification with Graph Convolutional Networks.** ICLR 2017. [paper](https://arxiv.org/pdf/1609.02907.pdf)
+
+    *Thomas N. Kipf, Max Welling.*
+
+1. **Inductive Representation Learning on Large Graphs.** NIPS 2017. [paper](https://arxiv.org/pdf/1706.02216.pdf)
+
+    *William L. Hamilton, Rex Ying, Jure Leskovec.*
+
+1. **Gated Graph Sequence Neural Networks.** ICLR 2016. [paper](https://arxiv.org/pdf/1511.05493.pdf)
+
+    *Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel.*
+
+1. **Semi-supervised Learning on Graphs with Generative Adversarial Nets** CIKM 2018. [paper](http://arxiv.org/abs/1809.00130)
+
+    *Ming Ding, Jie Tang, Jie Zhang*
+
+1. **metapath2vec: Scalable Representation Learning for Heterogeneous Networks.** KDD 2017. [paper](https://dl.acm.org/citation.cfm?id=3098036)
+
+    *Yuxiao Dong, Nitesh V. Chawla, Ananthram Swami.*    
+
+1. **Graph Attention Networks.** ICLR 2018. [paper](https://mila.quebec/wp-content/uploads/2018/07/d1ac95b60310f43bb5a0b8024522fbe08fb2a482.pdf)
+
+    *Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Lio, Yoshua Bengio.*
+
+1. **Revisiting Semi-Supervised Learning with Graph Embeddings.** ICML 2016. [paper](https://arxiv.org/abs/1603.08861)
+
+    *Zhilin Yang, William W. Cohen, Ruslan Salakhutdinov.*    
+    
+ 1. **Dyn2Vec: Exploiting dynamic behaviour using difference networks-based node embeddings for classification.** ICDATA 2018. [paper](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/ICD8013.pdf)
+
+    *Sandra Mitrovic, ochen De Weerdt.*    
+       
+1. **Heterogeneous Network Embedding via Deep Architectures.** KDD 2015. [paper](https://dl.acm.org/citation.cfm?id=2783296)
+
+    *Shiyu Chang, Wei Han, Jiliang Tang, Guo-Jun Qi, Charu C. Aggarwal, 	Thomas S. Huang.*    
+
+1. **How Powerful are Graph Neural Networks?** ICLR 2019. [paper](https://openreview.net/pdf?id=ryGs6iA5Km)
+
+    *Keyulu Xu, Weihua Hu, Jure Leskovec, Stefanie Jegelka.*
+    
+1. **Deep Inductive Network Representation Learning.** WWW 2018. [paper](https://dl.acm.org/citation.cfm?id=3184558.3191524)
+
+    *Ryan A. Rossi, Rong Zhou, 	Nesreen K. Ahmed.*
+
+1. **GaAN: Gated Attention Networks for Learning on Large and Spatiotemporal Graphs.** UAI 2018. [paper](http://arxiv.org/abs/1803.07294)
+
+    *Jiani Zhang, Xingjian Shi, Junyuan Xie, Hao Ma, Irwin King, Dit-Yan Yeung.*
+
+1. **Streaming Graph Neural Networks.** 2018. [paper](https://arxiv.org/abs/1810.10627)
+
+    *Yao Ma, Ziyi Guo, Zhaochun Ren, Eric Zhao, Jiliang Tang, Dawei Yin.*
+    
+1. **struc2vec: Learning Node Representations from Structural Identity.** KDD 2017. [paper](https://arxiv.org/abs/1704.03165)
+
+    *Leonardo F. R. Ribeiro, Pedro H. P. Savarese, Daniel R. Figueiredo..*  
+
+1. **Learning Structural Node Embeddings Via Diffusion Wavelets.** SIGKDD 2018. [paper](https://arxiv.org/abs/1710.10321)
+
+    *Claire Donnat, Marinka Zitnik, David Hallac, Jure Leskovec.*   
+
+1. **Deep Inductive Graph Representation Learning.** [paper](https://ieeexplore.ieee.org/document/8519335)
+
+    *Ryan Anthony Rossi, Rong Zhou, Nesreen Ahmed.*
+
+1. **Multi-task Network Embedding.** DSAA 2017 [paper](https://ieeexplore.ieee.org/abstract/document/8259819)
+
+    *RLinchuan Xu, Xiaokai Wei, Jiannong Cao, Philip S. Yu.*
+
+1. **Modeling Relational Data with Graph Convolutional Networks.** ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
+
+    *Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.*
+
+1. **Role action embeddings: scalable representation of network positions.** [paper](https://arxiv.org/abs/1811.08019)
+
+    *George Berry.*
+
+1. **Stochastic Training of Graph Convolutional Networks with Variance Reduction.** ICML 2018. [paper](http://www.scipaper.net/uploadfile/2018/0716/20180716100330880.pdf)
+    
+    *Jianfei Chen, Jun Zhu, Le Song.*
+    
+1. **Scalable Graph Learning for Anti-Money Laundering: A First Look.** NIPS 2018. [paper](https://arxiv.org/abs/1812.00076)
+    
+    *Mark Weber, Jie Chen, Toyotaro Suzumura, Aldo Pareja, Tengfei Ma, Hiroki Kanezashi, Tim Kaler, Charles E. Leiserson, Tao B. Schardl.*
+
+1. **Pre-training Graph Neural Networks.**  [paper](https://arxiv.org/abs/1905.12265)
+
+    *Weihua Hu, Bowen Liu, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, Jure Leskovec.*
+    
+1. **Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec.** WSDM 2018. [paper](https://arxiv.org/abs/1710.02971)
+
+    *Jiezhong Qiu, Yuxiao Dong, Hao Ma, Jian Li, Kuansan Wang, Jie Tang.*
 
 <!-- ### [Social Network](#content)
 
