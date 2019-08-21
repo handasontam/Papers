@@ -10,14 +10,14 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 <tr><td colspan="2"><a href="#models">2. Models</a></td></tr>
 <tr>
     <td>&emsp;<a href="#autoencoder">2.1 Autoencoder</a></td>
-    <td>&ensp;<a href="#gan">2.2 GAN</a></td>
+    <td>&ensp;<a href="#gans">2.2 GANs</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#kernel">2.3 Graph Kernels</a></td>
+    <td>&emsp;<a href="#graph-kernels">2.3 Graph Kernels</a></td>
     <td>&ensp;<a href="#heterogeneous">2.4 Heterogeneous</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#factorization">2.5 Matrix Factorization</a></td>
+    <td>&emsp;<a href="#matrix-factorization">2.5 Matrix Factorization</a></td>
     <td>&ensp;<a href="#others">2.6 OTHERS</a></td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 </tr>
 <tr>
     <td>&emsp;<a href="#path-classification">3.13 Path Classification</a></td>
-    <td>&ensp;<a href="#Physics">3.14 Physics<a></td>
+    <td>&ensp;<a href="#physics">3.14 Physics<a></td>
 </tr>
 <tr>
     <td>&emsp;<a href="#program-representation">3.15 Program Representation</a></td>
@@ -142,6 +142,12 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 1. **Structural Deep Network Embedding.** KDD2018. [paper](http://dl.acm.org/citation.cfm?doid=2939672.2939753) [code](https://github.com/suanrong/SDNE)
 
     *Wang, Daixin and Cui, Peng and Zhu, Wenwu.*
+
+### [GANs](#content)
+
+1. **Semi-supervised Learning on Graphs with Generative Adversarial Nets** CIKM 2018. [paper](http://arxiv.org/abs/1809.00130)
+
+    *Ming Ding, Jie Tang, Jie Zhang*
 
 ### [Graph Kernels](#content)
 
