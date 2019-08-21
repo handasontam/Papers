@@ -1083,6 +1083,11 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
     *Hongyang Gao, Yongjun Chen, Shuiwang Ji.*
 </details>
     
+### [Path Classification](#content)
+1. **STWalk: Learning Trajectory Representations in Temporal Graphs** CoDS-COMAD 2018. [paper](https://arxiv.org/abs/1711.04150)
+
+    *Supriya Pandhre, Himangi Mittal, Manish Gupta, Vineeth N Balasubramanian.* 
+    
 ### [Generation](#content)
 
 1. **Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation.** NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.02473)
@@ -1267,6 +1272,14 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 
     *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang.*
 
+1. **Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting.** ICLR 2018. [paper](https://arxiv.org/abs/1707.01926)
+
+    *Yaguang Li, Rose Yu, Cyrus Shahabi, Yan Liu.*
+
+1. **GaAN: Gated Attention Networks for Learning on Large and Spatiotemporal Graphs.** UAI 2018. [paper](http://arxiv.org/abs/1803.07294)
+
+    *Jiani Zhang, Xingjian Shi, Junyuan Xie, Hao Ma, Irwin King, Dit-Yan Yeung.*
+
 ### [Few-shot and Zero-shot Learning](#content)
 
 1. **Few-Shot Learning with Graph Neural Networks.** ICLR 2018. [paper](https://arxiv.org/pdf/1711.04043.pdf)
@@ -1322,7 +1335,50 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
 
     *Milan Cvitkovic, Badal Singh, Anima Anandkumar.*
 
-### [Social Network](#content)
+1. **Graph2Seq: Graph to Sequence Learning with Attention-based Neural Networks.** 2018. [paper](http://arxiv.org/abs/1804.00823)
+
+    *Xu, Kun; Wu, Lingfei; Wang, Zhiguo; Feng, Yansong; Witbrock, Michael; Sheinin, Vadim.*
+
+### [Time Prediction](#content)
+
+1. **Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs.** ICML 2017. [paper](http://arxiv.org/abs/1705.05742) [code](https://github.com/rstriv/Know-Evolve)
+
+    *Trivedi, Rakshit; Dai, Hanjun; Wang, Yichen; Song, Le.*
+
+1. **SEISMIC: A Self-Exciting Point Process Model for Predicting Tweet Popularity.** KDD 2015. [paper](http://dl.acm.org/citation.cfm?doid=2783258.2783401)
+
+    *Zhao, Qingyuan; Erdogdu, Murat A.; He, Hera Y.; Rajaraman, Anand; Leskovec, Jure.*
+
+### [Visualization](#content)
+
+1. **Scalable graph exploration and visualization: Sensemaking challenges and opportunities** BigComp 2015. [paper](http://ieeexplore.ieee.org/document/7072812/)
+
+    *Robert Pienta, James Abello, Minsuk Kahng, Duen Horng Chau.*
+
+1. **Semi-Supervised Classification with Graph Convolutional Networks.** ICLR 2017. [paper](https://arxiv.org/pdf/1609.02907.pdf)
+
+    *Thomas N. Kipf, Max Welling.*
+
+1. **Semi-supervised Learning on Graphs with Generative Adversarial Nets** CIKM 2018. [paper](http://arxiv.org/abs/1809.00130)
+
+    *Ming Ding, Jie Tang, Jie Zhang*
+
+1. **Spectral Networks and Locally Connected Networks on Graphs.** ICLR 2014. [paper](https://arxiv.org/pdf/1312.6203.pdf)
+
+    *Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun.*
+    
+1. **Structural Deep Network Embedding.** KDD2018. [paper](http://dl.acm.org/citation.cfm?doid=2939672.2939753) [code](https://github.com/suanrong/SDNE)
+
+    *Wang, Daixin and Cui, Peng and Zhu, Wenwu.*
+
+1. **Structured Sequence Modeling with Graph Convolutional Recurrent Networks** 2017. [paper](https://arxiv.org/abs/1612.07659)
+
+    *Youngjoo Seo, Michaël Defferrard, Pierre Vandergheynst, Xavier Bresson*
+
+
+
+
+<!-- ### [Social Network](#content)
 
 1. **DeepInf: Social Influence Prediction with Deep Learning.** KDD 2018. [paper](https://arxiv.org/pdf/1807.05560.pdf)
 
@@ -1346,4 +1402,4 @@ Contributed by Jie Zhou, Ganqu Cui, Zhengyan Zhang and Yushi Bai.
     
 1. **Fine-grained Event Categorization with Heterogeneous Graph Convolutional Networks.** IJCAI 2019. [paper](https://arxiv.org/pdf/1906.04580.pdf)
 
-    *Hao Peng, Jianxin Li, Qiran Gong, Yangqiu Song, Yuanxing Ning, Kunfeng Lai, Philip S. Yu.*
+    *Hao Peng, Jianxin Li, Qiran Gong, Yangqiu Song, Yuanxing Ning, Kunfeng Lai, Philip S. Yu.* -->
