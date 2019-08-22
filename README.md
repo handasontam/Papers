@@ -14,11 +14,11 @@ Acknowledgement: https://github.com/thunlp/GNNPapers
     <td>&ensp;<a href="#gan">2.2 GAN</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#kernel">2.3 Graph Kernels</a></td>
+    <td>&emsp;<a href="#graph-kernels">2.3 Graph Kernels</a></td>
     <td>&ensp;<a href="#heterogeneous">2.4 Heterogeneous</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#factorization">2.5 Matrix Factorization</a></td>
+    <td>&emsp;<a href="#matrix-factorization">2.5 Matrix Factorization</a></td>
     <td>&ensp;<a href="#others">2.6 OTHERS</a></td>
 </tr>
 <tr>
@@ -71,7 +71,7 @@ Acknowledgement: https://github.com/thunlp/GNNPapers
 </tr>
 <tr>
     <td>&emsp;<a href="#path-classification">3.13 Path Classification</a></td>
-    <td>&ensp;<a href="#Physics">3.14 Physics<a></td>
+    <td>&ensp;<a href="#physics">3.14 Physics<a></td>
 </tr>
 <tr>
     <td>&emsp;<a href="#program-representation">3.15 Program Representation</a></td>
@@ -195,7 +195,7 @@ Acknowledgement: https://github.com/thunlp/GNNPapers
 
 1. **Temporally Factorized Network Modeling for Evolutionary Network Analysis** WSDM2017. [paper](http://doi.acm.org/10.1145/3018661.3018669)
 
-    *Wenchao Yu, Charu C. Aggarwal, Wei Wang*
+    *Wenchao Yu, Charu C. Aggarwal, Wei Wang.*
 
 <!-- ### [Basic Models](#content)
 1. **Graphical-Based Learning Environments for Pattern Recognition.** SSPR/SPR 2004. [paper](https://link.springer.com/content/pdf/10.1007%2F978-3-540-27868-9_4.pdf)
@@ -444,7 +444,6 @@ Acknowledgement: https://github.com/thunlp/GNNPapers
 1. **Exploiting Edge Features in Graph Neural Networks.** CVPR 2019. [paper](https://arxiv.org/pdf/1809.02709.pdf)
 
     *Liyu Gong, Qiang Cheng.*   -->
-     -->
 
 ### [OTHERS](#content)
 1. **Deep Convolutional Networks on Graph-Structured Data.** arxiv 2015. [paper](https://arxiv.org/pdf/1506.05163.pdf)
