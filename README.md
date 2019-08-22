@@ -128,6 +128,75 @@ Acknowledgement: https://github.com/thunlp/GNNPapers
 
 ## [Models](#content)   
     
+### [Autoencoder](#content)
+1. **A Degeneracy Framework for Scalable Graph Autoencoders.** IJCAI 2019. [paper](https://arxiv.org/pdf/1902.08813.pdf)
+
+    *Guillaume Salha, Romain Hennequin, Viet Anh Tran, Michalis Vazirgiannis.*
+
+1. **Learning Deep Representations for Graph Clustering.** AAAI 2014. [paper](https://dl.acm.org/citation.cfm?id=2894074)
+
+    *Fei Tian, Bin Gao, Qing Cui, Enhong Chen, T. M. Liu.*
+
+1. **Structural Deep Network Embedding.** KDD2018. [paper](http://dl.acm.org/citation.cfm?doid=2939672.2939753) [code](https://github.com/suanrong/SDNE)
+
+    *Wang, Daixin and Cui, Peng and Zhu, Wenwu.*
+
+### [GANs](#content)
+
+1. **Semi-supervised Learning on Graphs with Generative Adversarial Nets** CIKM 2018. [paper](http://arxiv.org/abs/1809.00130)
+
+    *Ming Ding, Jie Tang, Jie Zhang*
+
+### [Graph Kernels](#content)
+
+1. **Learning Convolutional Neural Networks for Graphs.** ICML 2016. [paper](http://proceedings.mlr.press/v48/niepert16.pdf)
+
+    *Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov.* 
+
+1. **Temporal-Relational Classifiers for Prediction in Evolving Domains.** [paper](http://ieeexplore.ieee.org/document/4781149/)
+
+    *Umang Sharan, Jennifer Neville.*
+
+### [Heterogeneous](#content)
+
+1. **Edge Attention-based Multi-Relational Graph Convolutional Networks.** [paper](http://arxiv.org/abs/1802.04944)
+
+    *Chao Shang, Qinqing Liu, Ko-Shin Chen, Jiangwen Sun, Jin Lu, Jinfeng Yi, Jinbo Bi.*
+
+1. **Graph Convolutional Networks on User Mobility Heterogeneous Graphs for Social Relationship Inference** IJCAI2019. [paper](https://www.ijcai.org/proceedings/2019/541)
+
+    *Yongji Wu, Defu Lian, Shuowei Jin, Enhong Chen*
+
+1. **Heterogeneous Network Embedding via Deep Architectures** KDD2015. [paper](http://dl.acm.org/citation.cfm?doid=2783258.2783296)
+
+    *Shiyu Chang, Wei Han, Jiliang Tang,. Guo-Jun Qi, Charu C. Aggarwal, Thomas S. Huang*
+
+1. **metapath2vec: Scalable Representation Learning for Heterogeneous Networks** KDD2017. [paper](http://dl.acm.org/citation.cfm?doid=3097983.3098036)
+
+    *Dong, Y., Chawla, N. V., & Swami, A.*
+
+1. **Modeling polypharmacy side effects with graph convolutional networks.** ISMB 2018. [paper](https://arxiv.org/abs/1802.00543)
+
+    *Marinka Zitnik, Monica Agrawal, Jure Leskovec.*
+
+1. **Modeling Relational Data with Graph Convolutional Networks.** ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
+
+    *Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.*
+
+1. **Multi-task Network Embedding.** IEEE-DSAA 2017. [paper](https://ieeexplore.ieee.org/document/8259819)
+
+    *Linchuan Xu, Xiaokai Wei, Jiannong Cao, Philip S. Yu*
+
+
+### [Matrix Factorization](#content)
+1. **Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec.** WSDM2018. [paper](http://dl.acm.org/citation.cfm?doid=3159652.3159706)
+
+    *Jiezhong Qiu, Yuxiao Dong, Hao Ma, Jian Li, Kuansan Wang, Jie Tang.*
+
+1. **Temporally Factorized Network Modeling for Evolutionary Network Analysis** WSDM2017. [paper](http://doi.acm.org/10.1145/3018661.3018669)
+
+    *Wenchao Yu, Charu C. Aggarwal, Wei Wang*
+
 <!-- ### [Basic Models](#content)
 1. **Graphical-Based Learning Environments for Pattern Recognition.** SSPR/SPR 2004. [paper](https://link.springer.com/content/pdf/10.1007%2F978-3-540-27868-9_4.pdf)
 
