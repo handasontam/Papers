@@ -141,7 +141,7 @@ Acknowledgement: https://github.com/thunlp/GNNPapers
 
     *Wang, Daixin and Cui, Peng and Zhu, Wenwu.*
 
-### [GANs](#content)
+### [GAN](#content)
 
 1. **Semi-supervised Learning on Graphs with Generative Adversarial Nets** CIKM 2018. [paper](http://arxiv.org/abs/1809.00130)
 
